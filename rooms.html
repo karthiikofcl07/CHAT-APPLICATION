@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rooms - Chat App</title>
+  <link rel="stylesheet" href="s.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Choose a Room</h2>
+    <button onclick="enterRoom('Sports')">Sports</button>
+    <button onclick="enterRoom('Movies')">Movies</button>
+    <button onclick="enterRoom('Coding')">Coding</button>
+  </div>
+
+  <script>
+    function enterRoom(room) {
+      localStorage.setItem("room", room);
+      window.location.href = "chat.html";
+    }
+  </script>
+</body>
+</html>
