@@ -14,5 +14,6 @@ c
 
 The Chat Application using Socket.io is a real-time communication platform that enables users to send and receive messages instantly. Built with Node.js, Express, and Socket.io, it allows multiple users to join chat rooms and exchange messages without page reloads. Socket.io ensures smooth, bidirectional communication between the server and clients through WebSockets. The application features user connection status, message broadcasting, and a responsive interface for seamless chatting. It can be extended with authentication, emojis, and file sharing. This project demonstrates the core concept of real-time web communication and is ideal for understanding event-driven programming and socket-based networking.
 
-*OUTPUT SCREENSHOTS : *
+*OUTPUT SCREENSHOTS : https://github.com/karthiikofcl07/CHAT-APPLICATION/issues/1#issue-3484888597
+
 
